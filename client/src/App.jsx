@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://localhost:5000/api";
+const API = "https://movie-tracker-awvz.onrender.com/api";
 const IMG = "https://image.tmdb.org/t/p/w500";
 
 export default function App() {
